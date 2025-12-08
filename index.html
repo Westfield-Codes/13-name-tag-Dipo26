@@ -3,11 +3,37 @@
 <html>
   <head>
     <title>Nametag Creator</title>
+    <style>
+      #nametag {
+        width: 800px;
+        text-align: center;
+        border-radius: 16px;
+        border: 2px solid black;
+        box-shadow: 10px 10px 10px grey;
+        background-color:magenta;
+      }
+      h1 {
+        color:white;
+        font-size:75px;
+      }
+      #name {
+        background-color: white;
+      }
+
+    </style>
   </head>
   <body>
      <h1>Instructions</h1>
   <p>Make a page that looks as much as possible like the nametag.jpg image below without using that image. See README.md for tasks. </p>
-  <img src="nametag.jpg" width="800px">
+  <div id="nametag">
+    <h1>
+      HELLO
+    </h1>
+    <div id="name">
+      <p>My Name Is</p>
+    </div>
+  </div>
+  
   <script src="script.js"></script>
   </body>
 </html>
