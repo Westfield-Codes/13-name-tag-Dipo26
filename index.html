@@ -6,19 +6,34 @@
     <style>
       #nametag {
         width: 800px;
+        height: 400px;
         text-align: center;
-        border-radius: 16px;
+        border-radius: 20px;
         border: 2px solid black;
         box-shadow: 10px 10px 10px grey;
         background-color:magenta;
       }
+      .one {
+        height:100px;
+        overflow: hidden;
+        
+      }
+      .two {
+        background-color: white;
+        height:300px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border-bottom: 2px solid black;
+      }
+    
+    
       h1 {
         color:white;
         font-size:75px;
+        margin:0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
-      #name {
-        background-color: white;
-      }
+      
 
     </style>
   </head>
@@ -26,12 +41,14 @@
      <h1>Instructions</h1>
   <p>Make a page that looks as much as possible like the nametag.jpg image below without using that image. See README.md for tasks. </p>
   <div id="nametag">
-    <h1>
-      HELLO
-    </h1>
-    <div id="name">
+    <div class="one">
+      <h1>HELLO</h1>
+    </div>
+
+    <div class="two">
       <p>My Name Is</p>
     </div>
+
   </div>
   
   <script src="script.js"></script>
