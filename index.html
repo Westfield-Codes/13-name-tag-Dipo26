@@ -7,10 +7,10 @@
       #nametag {
         width: 800px;
         height: 400px;
-        text-align: center;
+        margin:auto;
         border-radius: 20px;
         border: 2px solid black;
-        box-shadow: 10px 10px 10px grey;
+        box-shadow: 10px 15px 13px rgb(66, 61, 61);
         background-color:magenta;
       }
       .one {
@@ -21,19 +21,33 @@
       .two {
         background-color: white;
         height:300px;
-        border-bottom-left-radius: 35px;
-        border-bottom-right-radius: 35px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         border-bottom: 2px solid black;
       }
-    
+      .two p {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        color:magenta;
+        font-size: 50px;
+        margin:0;
+        text-align: center;
+      }
     
       h1 {
         color:white;
-        font-size:75px;
+        font-size:90px;
         margin:0;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+  
       }
-      
+      #stripe {
+        height:10px;
+        background-color: magenta;
+        position: relative;
+        top: 170px;
+      }
 
     </style>
   </head>
@@ -44,9 +58,9 @@
     <div class="one">
       <h1>HELLO</h1>
     </div>
-
     <div class="two">
       <p>My Name Is</p>
+      <div id="stripe"></div>
     </div>
 
   </div>
